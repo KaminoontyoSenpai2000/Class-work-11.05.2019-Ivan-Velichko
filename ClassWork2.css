@@ -1,0 +1,46 @@
+body {
+	background-image: url(backgroung-image.jpg);
+}
+h1 {
+	text-align: left;
+}
+
+hr {
+	margin: 0 950px 20px 50px;
+}
+
+.table-main-info {
+	margin: 30px 1000px 30px 100px;
+	background-color: #ffffe6
+}
+
+.table-common-info {
+	margin: 30px 1000px 30px 100px;
+	background-color: #ffffe6
+}
+
+.comments {
+	margin: 30px 1000px 30px 100px;
+	background-color: #ffffe6
+}
+
+.first {
+	font-color:#0000e6 ;
+
+}
+
+.second {
+	font-color:#0000e6 ;
+}
+
+.third {
+	font-color:#0000e6 ;
+}
+
+.orrange-font {
+	color: #ffc34d;
+}
+
+big {
+	color: black;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="ClassWork2.css">
+	<meta charset="utf-8">
+  <title>Бронь отеля</title>
+ </head>
+ <body>
+ 	<header>
+ 		<h1>Бронь отеля</h1>
+ 		<hr class="margin">
+ 	</header>
+
+ 	<main class="table-main-info">
+ <form>
+  <fieldset>
+   <legend><big>Основные данные</big></legend>
+   <p class="orrange-font">
+  Ваше имя:
+   <input required type="text">
+   Ваша фамилия:
+   <input required type="text"> <br/> <br/>
+   Ваш пол
+   <select name="Пол">
+    <option>Мужской</option>
+    <option>Женский</option>    
+   </select>
+</p>
+   <p class="orrange-font">Дата рождения:
+   <input type="date"></p>
+   <p class="orrange-font">Ваш e-mail:
+   <input required type="text"></p>
+   <p class="orrange-font">Номер телефона:
+   <input required type="number"></p>
+   <p class="orrange-font"><input type="submit" name="" value="Подтвердить"></p>
+  </fieldset> 
+ </form>
+ </main>
+
+ 		<main class="table-common-info">
+ <form class="orrange-font">
+   <fieldset>
+   <legend><big>Общие данные</big></legend>
+   <p class="orrange-font">Сколько будет взрослых? (включая вас)</p>
+   <input required type="radio" name="1" value="1">1
+   <input type="radio" name="1" value="1">2
+   <input type="radio" name="1" value="1">3
+   <input type="radio" name="1" value="1">4
+   <input type="submit" name="1" value="Подтвердить">
+   <p class="orrange-font">Сколько будет детей?</p>
+   <input type="radio" name="1" value="1">0
+   <input type="radio" name="1" value="1">1
+   <input type="radio" name="1" value="1">2
+   <input type="radio" name="1" value="1">3
+   <input type="radio" name="1" value="1">4
+   <input type="radio" name="1" value="1">5
+   <input type="submit" name="1" value="Подтвердить">
+   <p class="orrange-font">Среди вас есть курящие?</p>
+   <input type="checkbox" name="1" value="1">Да, желаем приобрести номер для курящих.
+   <input type="reset" name="1" value="Стереть">
+   <p class="orrange-font">Можно ли вас заселить в разные номера если не будет подходящих?</p>
+   <input type="checkbox" name="1" value="1">Да.
+   <input type="reset" name="1" value="Стереть">
+   </fieldset>
+  </form>
+</main>
+<footer class="comments">
+  <form class="orrange-font">
+   <fieldset>
+   <legend><big>Укажите время заселения.</big></legend>
+   Укажите дату.
+   <input required type="date">
+   Укажите время.
+   <input required type="time">
+   </fieldset>
+  </form>
+  <form>
+   <fieldset>
+   <legend class="orrange-font">По желанию оставьте комментарий.</legend>
+   <textarea placeholder="Ваш комметарий" rows="10" cols="45" name="text"></textarea>
+   </fieldset>
+  </form>
+  </footer>
+ </body>
+</html>
