@@ -1,0 +1,24 @@
+.solid-black-border {
+	border: 1px solid black;
+	text-transform: uppercase;
+}
+.solid-bottom-black-border {
+	border-bottom: 1px solid red;
+}
+.solid-rounded-grey-border {
+	border: 1px solid grey;
+	border-radius: 5px;
+	text-decoration: underline;
+	text-align: center;
+}
+.blue-left-border {
+	border-left: 3px solid blue;
+	background-color: aqua;
+	text-align: justify;
+	text-decoration: overline;
+	letter-spacing: 5px;
+	line-height: 5px;
+	direction: rtl;
+	word-spacing: 5px;
+	text-shadow: 1px 1px 2px black, 0 0 1em red; 
+}
