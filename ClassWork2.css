@@ -1,8 +1,9 @@
 body {
 	background-image: url(backgroung-image.jpg);
+	opacity: 0.9;
 }
 h1 {
-	text-align: left;
+	margin-left: 15%;
 }
 
 hr {
@@ -11,17 +12,17 @@ hr {
 
 .table-main-info {
 	margin: 30px 1000px 30px 100px;
-	background-color: #ffffe6
+	background-color: #FFFAFA
 }
 
 .table-common-info {
 	margin: 30px 1000px 30px 100px;
-	background-color: #ffffe6
+	background-color: #FFFAFA	
 }
 
 .comments {
 	margin: 30px 1000px 30px 100px;
-	background-color: #ffffe6
+	background-color: #FFFAFA	
 }
 
 .first {
